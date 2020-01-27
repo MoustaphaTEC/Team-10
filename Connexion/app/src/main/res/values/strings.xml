@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Yoon Bi</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="no_registred">No Registred ?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="confirm">Confirm</string>
+    <string name="connect_connexion">Connect</string>
+    <string name="password_inscription">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="registred_inscription">Registred</string>
+</resources>

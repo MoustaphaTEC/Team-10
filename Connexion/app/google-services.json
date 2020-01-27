@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "593542037406",
+    "firebase_url": "https://yoon-bi.firebaseio.com",
+    "project_id": "yoon-bi",
+    "storage_bucket": "yoon-bi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593542037406:android:87c07e6f6a9b028a33a08f",
+        "android_client_info": {
+          "package_name": "com.yoon.bi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593542037406-bfe6hsmdb3abg2d6v4lqepquldhsr0lp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbN7b1KC0PZLSo_3aivV1zwQaRzvFmmO8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593542037406-bfe6hsmdb3abg2d6v4lqepquldhsr0lp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
