@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "593542037406-lg4mq5be11hqtctaf8hk0k5o5sm80nu8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yoon.bi",
+            "certificate_hash": "80ef251c1d2dca9a806374db9bbecf59451c14df"
+          }
+        },
+        {
           "client_id": "593542037406-bfe6hsmdb3abg2d6v4lqepquldhsr0lp.apps.googleusercontent.com",
           "client_type": 3
         }

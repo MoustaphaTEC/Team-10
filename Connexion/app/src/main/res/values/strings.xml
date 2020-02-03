@@ -1,12 +1,30 @@
 <resources>
     <string name="app_name">Yoon Bi</string>
-    <string name="email">Email</string>
-    <string name="password">Password</string>
+    <string name="email">number</string>
+    <string name="password">password</string>
     <string name="no_registred">No Registred ?</string>
     <string name="sign_up">Sign Up</string>
-    <string name="confirm">Confirm</string>
-    <string name="connect_connexion">Connect</string>
-    <string name="password_inscription">Password</string>
+    <string name="confirm">confirm</string>
+    <string name="connect_connexion">Login</string>
+    <string name="password_inscription">password</string>
     <string name="sign_in">Sign In</string>
-    <string name="registred_inscription">Registred</string>
+    <string name="registred_inscription">Create Account</string>
+    <string name="number_inscr">number</string>
+    <string name="title_activity_hom">HomActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Yoon Bi</string>
+    <string name="nav_header_subtitle">agence.yoon.bi@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Maps</string>
+    <string name="menu_slideshow">Line</string>
+    <string name="menu_tools">Forums</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_hom2">Hom2Activity</string>
+    <string name="action_settings">Settings</string>
+
 </resources>
