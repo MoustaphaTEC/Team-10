@@ -17,14 +17,10 @@
     <string name="nav_header_subtitle">agence.yoon.bi@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
 
-    <string name="menu_home">Home</string>
     <string name="menu_gallery">Maps</string>
     <string name="menu_slideshow">Line</string>
     <string name="menu_tools">Forums</string>
+    <string name="menu_home">Standstill</string>
     <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
-    <string name="title_activity_maps">Map</string>
-    <string name="title_activity_hom2">Hom2Activity</string>
-    <string name="action_settings">Settings</string>
 
 </resources>

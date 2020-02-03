@@ -50,8 +50,8 @@ public class GalleryFragment extends Fragment {
                 mMap.clear(); //clear old markers
 
                 CameraPosition googlePlex = CameraPosition.builder()
-                        .target(new LatLng(37.4219999,-122.0862462))
-                        .zoom(10)
+                        .target(new LatLng(14.7316555,-17.4684983))
+                        .zoom(12)
                         .bearing(0)
                         .tilt(45)
                         .build();
@@ -59,18 +59,18 @@ public class GalleryFragment extends Fragment {
                 mMap.animateCamera(CameraUpdateFactory.newCameraPosition(googlePlex), 10000, null);
 
                 mMap.addMarker(new MarkerOptions()
-                        .position(new LatLng(37.4219999, -122.0862462))
-                        .title("Spider Man")
+                        .position(new LatLng(14.71118, -17.5358661))
+                        .title("Dakar")
                         .icon(bitmapDescriptorFromVector(getActivity(),R.drawable.common_full_open_on_phone)));
 
                 mMap.addMarker(new MarkerOptions()
-                        .position(new LatLng(37.4629101,-122.2449094))
-                        .title("Iron Man")
+                        .position(new LatLng(14.7552617,-17.4044798))
+                        .title("Pikine")
                         .snippet("His Talent : Plenty of money"));
 
                 mMap.addMarker(new MarkerOptions()
-                        .position(new LatLng(37.3092293,-122.1136845))
-                        .title("Captain America"));
+                        .position(new LatLng(14.7485272,-17.3466738))
+                        .title("Fass Mbao"));
             }
         });
 

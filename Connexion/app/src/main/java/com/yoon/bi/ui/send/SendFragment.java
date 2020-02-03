@@ -16,7 +16,7 @@ import com.yoon.bi.R;
 
 public class SendFragment extends Fragment {
 
-    private SendViewModel sendViewModel;
+/*    private SendViewModel sendViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -31,5 +31,5 @@ public class SendFragment extends Fragment {
             }
         });
         return root;
-    }
+    }*/
 }
