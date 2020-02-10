@@ -4,27 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical"
+    android:background="@drawable/f1"
     android:gravity="center_horizontal"
-    android:background="@drawable/carte">
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
     <EditText
         android:id="@+id/edit_number"
-        android:inputType="number"
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_marginTop="180dp"
-        android:hint="@string/email">
+        android:drawableLeft="@drawable/loguser"
+        android:hint="@string/email"
+        android:inputType="number">
 
     </EditText>
+
     <EditText
         android:id="@+id/edittext_password"
-        android:inputType="textPassword"
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
-        android:hint="@string/password">
+        android:drawableLeft="@drawable/pasword"
+        android:hint="@string/password"
+        android:inputType="textPassword">
 
     </EditText>
 
@@ -38,11 +41,11 @@
             android:id="@+id/remember_me_check"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
             android:gravity="center_vertical"
             android:text="Remember"
             android:textSize="14sp"
-            android:textStyle="bold"
-            android:layout_marginLeft="0dp">
+            android:textStyle="bold">
 
         </CheckBox>
 
@@ -50,10 +53,10 @@
             android:id="@+id/forget_password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
             android:text="Forget Password?"
             android:textSize="14sp"
-            android:textStyle="bold"
-            android:layout_marginLeft="25dp">
+            android:textStyle="bold">
 
         </TextView>
 
@@ -74,13 +77,14 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:orientation="horizontal">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
             android:text="I'am an conducteur?"
             android:textSize="14sp"
-            android:textStyle="bold"
-            android:layout_marginLeft="80dp">
+            android:textStyle="bold">
 
         </TextView>
 
@@ -90,15 +94,14 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp">
+        android:layout_marginTop="230dp">
 
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="40dp"
-            android:text="@string/no_registred"
             android:layout_marginLeft="140dp"
-            >
+            android:text="@string/no_registred">
 
         </TextView>
 
@@ -113,8 +116,6 @@
             android:textSize="20sp"
             android:textStyle="bold" />
     </LinearLayout>
-
-
 
 
 </LinearLayout>

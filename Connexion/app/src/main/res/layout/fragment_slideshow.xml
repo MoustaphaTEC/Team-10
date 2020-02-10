@@ -1,23 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/f10"
+    tools:context="com.yoon.bi.ui.slideshow.SlideshowFragment">
 
-    <Button
-        android:id="@+id/ligne1"
-        android:layout_width="47dp"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="01"
-        android:textColor="#009688" />
+        android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/ligne2"
-        android:layout_width="47dp"
-        android:layout_height="wrap_content"
-        android:text="02"
-        android:textColor="#009688"
-        android:visibility="visible" />
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:iconifiedByDefault="false"
+            android:queryHint="@string/search">
 
-</LinearLayout>
+        </SearchView>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="60dp"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:background="#009688"
+                android:dropDownSelector="@android:drawable/ic_menu_sort_by_size"
+                tools:layout_editor_absoluteX="35dp"
+                tools:layout_editor_absoluteY="98dp" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="#009688"
+                android:dropDownSelector="@android:drawable/ic_menu_sort_by_size"
+                tools:layout_editor_absoluteX="35dp"
+                tools:layout_editor_absoluteY="98dp" />
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="#009688"
+                android:dropDownSelector="@android:drawable/ic_menu_sort_by_size"
+                tools:layout_editor_absoluteX="35dp"
+                tools:layout_editor_absoluteY="98dp" />
+
+            <Spinner
+                android:id="@+id/spinner4"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="#009688"
+                android:dropDownSelector="@android:drawable/ic_menu_sort_by_size"
+                tools:layout_editor_absoluteX="35dp"
+                tools:layout_editor_absoluteY="98dp" />
+
+            <Spinner
+                android:id="@+id/spinner5"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="#009688"
+                android:dropDownSelector="@android:drawable/ic_menu_sort_by_size"
+                tools:layout_editor_absoluteX="35dp"
+                tools:layout_editor_absoluteY="98dp" />
+
+            <Spinner
+                android:id="@+id/spinner6"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="#009688"
+                android:dropDownSelector="@android:drawable/ic_menu_sort_by_size"
+                tools:layout_editor_absoluteX="35dp"
+                tools:layout_editor_absoluteY="98dp" />
+
+            <Spinner
+                android:id="@+id/spinner7"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="#009688"
+                android:dropDownSelector="@android:drawable/ic_menu_sort_by_size"
+                tools:layout_editor_absoluteX="35dp"
+                tools:layout_editor_absoluteY="98dp" />
+
+            <Spinner
+                android:id="@+id/spinner8"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="#009688"
+                android:dropDownSelector="@android:drawable/ic_menu_sort_by_size"
+                tools:layout_editor_absoluteX="35dp"
+                tools:layout_editor_absoluteY="98dp" />
+
+            <Spinner
+                android:id="@+id/spinner9"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="#009688"
+                android:dropDownSelector="@android:drawable/ic_menu_sort_by_size"
+                tools:layout_editor_absoluteX="35dp"
+                tools:layout_editor_absoluteY="98dp" />
+
+            <Spinner
+                android:id="@+id/spinner10"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="#009688"
+                android:dropDownSelector="@android:drawable/ic_menu_sort_by_size"
+                tools:layout_editor_absoluteX="35dp"
+                tools:layout_editor_absoluteY="98dp" />
+
+            <Spinner
+                android:id="@+id/spinner11"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="#009688"
+                android:dropDownSelector="@android:drawable/ic_menu_sort_by_size"
+                tools:layout_editor_absoluteX="35dp"
+                tools:layout_editor_absoluteY="98dp" />
+
+        </LinearLayout>
+
+</FrameLayout>

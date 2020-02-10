@@ -12,7 +12,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.firebase.auth.FirebaseAuthException;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -87,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
 
                             Intent intent = new Intent(MainActivity.this, HomActivity.class);
                             startActivity(intent);
+                            displayChatMessages();
                         }
                     }
                 }
@@ -94,6 +94,10 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Account with this " + number + " number do not exists.", Toast.LENGTH_SHORT).show();
                     loadingBar.dismiss();
                 }
+            }
+
+            private void displayChatMessages() {
+
             }
 
             @Override

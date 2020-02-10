@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_gallery">
+    app:startDestination="@+id/nav_home">
 
     <fragment
         android:id="@+id/nav_home"
@@ -34,4 +34,5 @@
         android:name="com.yoon.bi.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
+
 </navigation>

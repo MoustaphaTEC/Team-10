@@ -7,40 +7,44 @@
     android:orientation="vertical"
     android:gravity="center_horizontal"
     tools:context=".InscriptionActivity"
-    android:background="@drawable/carte">
+    android:background="@drawable/f1">
 
     <EditText
         android:id="@+id/edittext_pseudo"
         android:layout_width="240dp"
         android:layout_height="50dp"
         android:layout_marginTop="180dp"
-        android:hint="pseudo" />
+        android:hint="pseudo"
+        android:textColor="#009688" />
 
     <EditText
         android:id="@+id/edit_number_ins"
-        android:inputType="number"
         android:layout_width="240dp"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
-        android:hint="@string/number_inscr" />
+        android:hint="@string/number_inscr"
+        android:inputType="number"
+        android:textColor="#009688" />
 
     <EditText
         android:id="@+id/edit_password_ins"
-        android:inputType="textPassword"
         android:layout_width="240dp"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
-        android:hint="@string/password_inscription">
+        android:hint="@string/password_inscription"
+        android:inputType="textPassword"
+        android:textColor="#009688">
 
     </EditText>
 
     <EditText
         android:id="@+id/edittext_cnf_password"
-        android:inputType="textPassword"
         android:layout_width="240dp"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
-        android:hint="@string/confirm" />
+        android:hint="@string/confirm"
+        android:inputType="textPassword"
+        android:textColor="#009688" />
 
     <Button
         android:id="@+id/btn_inscrire"
